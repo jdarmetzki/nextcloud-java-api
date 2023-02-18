@@ -19,8 +19,8 @@
         <commons-io.version>2.11.0</commons-io.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-codec.version>1.15</commons-codec.version>
-        <jakarta.xml.bind-api.version>2.3.3</jakarta.xml.bind-api.version>
-        <jaxb-runtime.version>3.0.2</jaxb-runtime.version>
+        <jakarta.xml.bind-api.version>4.0.0</jakarta.xml.bind-api.version>
+        <jaxb-runtime.version>4.0.2</jaxb-runtime.version>
         <jackson.version>2.14.1</jackson.version>
         <netbeans.hint.license>gpl30</netbeans.hint.license>
     </properties>
@@ -114,7 +114,7 @@
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>   
             <artifactId>jaxb-runtime</artifactId>   
-            <version>${jaxb-runtime.version}</version> 
+            <version>${jaxb-runtime.version}</version>
         </dependency>
         
         <dependency>

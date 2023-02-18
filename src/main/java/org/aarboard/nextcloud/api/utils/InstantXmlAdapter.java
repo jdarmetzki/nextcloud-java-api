@@ -2,7 +2,7 @@ package org.aarboard.nextcloud.api.utils;
 
 import java.time.Instant;
 
-import javax.xml.bind.annotation.adapters.XmlAdapter;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 
 public class InstantXmlAdapter extends XmlAdapter<Long, Instant>
 {

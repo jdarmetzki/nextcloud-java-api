@@ -17,9 +17,9 @@
 package org.aarboard.nextcloud.api.filesharing;
 
 import java.security.InvalidParameterException;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
-import javax.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.XmlEnum;
+import jakarta.xml.bind.annotation.XmlEnumValue;
+import jakarta.xml.bind.annotation.XmlType;
 
 /**
  * https://docs.nextcloud.com/server/11/developer_manual/core/ocs-share-api.html
